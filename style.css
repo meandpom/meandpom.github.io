@@ -22,3 +22,7 @@ li a {
 li a: hover {
   background-color: pink
 }
+
+.active {
+  background-color: #04AA6D;
+}
