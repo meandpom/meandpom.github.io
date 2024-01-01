@@ -3,7 +3,6 @@
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   color: #967969;
@@ -13,13 +12,39 @@
   font-size: 25px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
   background-color: #89CFF0;
   color: #FFFDD0;
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
   background-color: #F4C2C;
   color: #967969;
+ 
+#header {
+    width: 100%;
+    background-color: red;
+    height: 30px;
+}
+
+#container {
+    width: 300px;
+    background-color: #ffcc33;
+    margin: auto;
+}
+#first {
+    width: 100px;
+    float: left;
+    height: 300px;
+        background-color: blue;
+}
+#second {
+    width: 200px;
+    float: left;
+    height: 300px;
+    background-color: green;
+}
+#clear {
+    clear: both;
+}
+  
