@@ -24,6 +24,7 @@
 .row {
   display: flex;
   float: right;
+  border: smooth;
   border-color: grey;
 }
 
