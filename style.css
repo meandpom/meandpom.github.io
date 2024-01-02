@@ -34,4 +34,13 @@
     display: block;
     text-align: left;
   }
+
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.grid-item {
+ height: //Whatever you want them to be
+}
+  
