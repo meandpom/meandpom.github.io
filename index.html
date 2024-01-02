@@ -45,14 +45,6 @@
 <audio id="loop-limited" controls="controls" autoplay style="width: 6em;height:20px;"> 
   <source src="Bryson Tiller - Let Em' Know (Audio).mp3" type="audio/ogg">
 </audio>
-
-  <script>
-var loopLimit = 5;
-var loopCounter = 0;
-document.getElementById('loop-limited').addEventListener('ended', function(){if (loopCounter < loopLimit){this.currentTime = 0;this.play();loopCounter++;}
-}, false);
-  </script>
-
 </footer>
   
 </body>
