@@ -35,12 +35,3 @@
     text-align: left;
   }
 
-}
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto;
-}
-.grid-item {
- height: 100px;
-}
-  
