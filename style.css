@@ -21,7 +21,14 @@
   background-color: #F4C2C;
   color: #967969;
  
-.flex-container {
-  display: flex;
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
   
