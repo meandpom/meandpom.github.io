@@ -21,32 +21,6 @@
   background-color: #F4C2C;
   color: #967969;
  
-#header {
-    width: 100%;
-    background-color: red;
-    height: 30px;
-}
-
-#container {
-    width: 300px;
-    background-color: #ffcc33;
-    margin: auto;
-}
-#first {
-    width: 100px;
-    float: left;
-    height: 300px;
-        background-color: blue;
-}
-#second {
-    width: 200px;
-    float: left;
-    height: 300px;
-    background-color: green;
-}
-#clear {
-    clear: both;
-}
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
@@ -62,31 +36,7 @@
   }
 }
 
-.grid-container {
+.wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-column-gap: 0px;
+  grid-template-columns: 200px 200px 200px;
 }
-
-.left {
-  grid-column: 1;
-  border: 1px solid red;
-  height: 500px;
-  width: 300px;
-}
-
-.middle {
-  grid-column: 2;
-  border: 1px solid red;
-  height: 500px;
-  width: 300px;
-}
-
-.right {
-  grid-column: 3;
-  border: 1px solid red;
-  height: 500px;
-  width: 300px;
-}
-<div class="grid-container">
