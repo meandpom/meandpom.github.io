@@ -41,12 +41,25 @@
 <h1>Happy Birthday</h1>
 <p>This is a paragraph.</p>
 
+<footer> 
+<audio id="loop-limited" controls="controls" autoplay style="width: 6em;height:20px;"> 
+  <source src="Bryson Tiller - Let Em' Know (Audio).mp3" type="audio/ogg">
+</audio>
+
+  <script>
+var loopLimit = 5;
+var loopCounter = 0;
+document.getElementById('loop-limited').addEventListener('ended', function(){if (loopCounter < loopLimit){this.currentTime = 0;this.play();loopCounter++;}
+}, false);
+  </script>
+
+</footer>
+  
 <footer>
   <audio controls autoplay>
   <source src="Bryson Tiller - Let Em' Know (Audio).mp3" type="audio/mpeg">
-Your browser does not support the audio element.
 </audio>
-</footer>
+
   
 </body>
   
