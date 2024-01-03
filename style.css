@@ -20,14 +20,4 @@
 .topnav a.active {
   background-color: #F4C2C;
   color: #967969;
- 
-.row {
-  display: flex;
-  float: right;
-  border: smooth;
-  border-color: grey;
-}
 
-.column {
-  flex: 50%;
-}
